@@ -1,6 +1,6 @@
 # Interactive LeNet
 <p align="center">
-  <img src="https://github.com/earnesdm/iGPT-MNIST-Style_Digit_Generator/blob/main/img/iGPT_samples.png?raw=true"
+  <img src="https://github.com/earnesdm/iGPT-MNIST-Style-Digit-Generator/blob/main/img/iGPT_samples.png?raw=true"
 width="400"
 />
 </p>
