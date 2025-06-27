@@ -1,7 +1,7 @@
 # Interactive LeNet
 <p align="center">
   <img src="https://github.com/earnesdm/iGPT-MNIST-Style-Digit-Generator/blob/main/img/iGPT_samples.png?raw=true"
-width="800"
+width="1200"
 />
 </p>
 
