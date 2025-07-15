@@ -10,7 +10,7 @@ This project contains a webapp that hosts an iGPT model that I trained on MNIST.
 
 The frontend is in HTML, CSS, and JS. The backend is in Python.
 
-Video Demo: https://youtu.be/nbnLoWgeemI
+Video Demo: https://www.youtube.com/watch?v=DOaCw5Lfz70
 
 Read more about iGPT here: https://cdn.openai.com/papers/Generative_Pretraining_from_Pixels_V2.pdf
 
