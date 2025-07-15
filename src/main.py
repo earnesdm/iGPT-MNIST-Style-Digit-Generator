@@ -2,7 +2,6 @@ from flask import Flask, render_template, request, redirect, url_for, jsonify
 from model import ImageGPT, sample_model
 
 import torch
-from PIL import Image
 import matplotlib.pyplot as plt
 
 device = torch.device('mps' if torch.backends.mps.is_available() else 'cpu')
@@ -24,9 +23,11 @@ def index():
 
         plt.imshow(output, cmap='grey')
         plt.axis('off')
-        plt.savefig('static/images/MNIST_sample.png', bbox_inches='tight')
+        plt.savefig('static/images/MNIST_temp.png', bbox_inches='tight')
 
-    return render_template("index.html")
+        return render_template("index.html", image='MNIST_temp.png')
+    else:
+        return render_template("index.html", image='MNIST_sample.png')
 
 
 if __name__ == '__main__':
